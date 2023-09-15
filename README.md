@@ -1,4 +1,4 @@
-# ocr_image
+# Flutter - Google Vision API 的使用
 
 直接使用 Google Vision API 可以將圖片中的文字轉成文字檔
 
