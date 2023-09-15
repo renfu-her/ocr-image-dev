@@ -9,7 +9,10 @@
 安裝 Google Vision API
 
 ```
+composer create-project laravel/laravel
 composer require google/cloud-vision
 ```
 
-Laravel 的檔案放在 website_developer 對應的資料夾中，就可以了
+1. 申請網站空間 + DNS + CloudFlare
+2. Laravel 更新檔案：website_developer 裏面對應的資料夾中
+3. https://申請的網址/google-ocr 
