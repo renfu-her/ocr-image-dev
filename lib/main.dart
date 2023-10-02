@@ -95,7 +95,7 @@ class _ImageUploadPageState extends State<ImageUploadPage> {
       _isUploading = true; // 開始上傳前設定為 true
     });
 
-    String apiUrl = "https://yourweb.com/google-ocr";
+    String apiUrl = "https://blog.dev-laravel.co/google-ocr";
     Dio dio = Dio();
 
     try {
