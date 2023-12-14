@@ -7,6 +7,8 @@ import 'package:image_picker/image_picker.dart';
 import 'privacy.dart';
 import 'feedback.dart';
 
+var dio = Dio();
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -96,8 +98,7 @@ class _ImageUploadPageState extends State<ImageUploadPage> {
     });
 
     String apiUrl = "https://blog.dev-laravel.co/google-ocr";
-    Dio dio = Dio();
-
+    
     try {
       FormData formData = FormData.fromMap({
         "image": await MultipartFile.fromFile(_image!.path),
